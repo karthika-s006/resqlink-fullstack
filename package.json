@@ -1,0 +1,10 @@
+{
+  "name": "resqlink-fullstack",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --kill-others --names API,WEB \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
